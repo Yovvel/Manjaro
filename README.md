@@ -5,6 +5,12 @@ custom configuration files for my system
 Location: /etc/default/grub
 set GRUB_TIMEOUT to zero for a faster and smoother boot.
 
+#### Swapfile usage
+Location: /etc/sysctl.d/99-swappiness.conf
+vm.swappiness=10 to reduce hdd/ssd swapfile usage. only use it when really needed. This will keep the system fast and clean.
+
+
+
 ## Firefox
 
 #### /home/yovvel/.mozilla/firefox/9mbxgjrk.default-release/chrome/userChrome.css/userChrome.css
