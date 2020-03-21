@@ -1,6 +1,9 @@
 # Manjaro
 custom configuration files for my system
 
+#### Grub
+Location: /etc/default/grub
+set GRUB_TIMEOUT to zero for a faster and smoother boot.
 
 ## Firefox
 
